@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+  
+  /* ======== Display Properties ======== */
+  .flex{display: flex;}
+  .flex-d-col{display: flex;flex-direction: column;}
+  .flex-d-row{display: flex;flex-direction: row !important;}
+  .flex-a-cen{display: flex;align-content: center;}
+  .flex-a-fend{display: flex;align-items: flex-end;}
+  .flex-a-fstart{display: flex;align-items: flex-start;}
+  .flex-j-cen{display: flex;justify-content: center;}
+  .flex-j-fend{display: flex;justify-content: flex-end;}
+  .flex-j-fstart{display: flex;justify-content: flex-start;}
+  .flex-a-cen-j-cen{display: flex;align-items: center;justify-content: center;}
+  .flex-a-cen-j-spbet{display: flex;align-items: center;justify-content: space-between;}
+  .flex-a-cen-j-sparnd{display: flex;align-items: center;justify-content: space-around;}
+  .flex-j-spbet{display: flex;justify-content: space-between;}
+  .flex-a-cen-j-spevn{display: flex;align-items: center;justify-content: space-evenly;}
+  
+  /* ========== Text Alignment ========= */
+  .text-center{text-align: center;}
+  .text-left{text-align: left;}
+  .text-right{text-align: right;}
+  
+  /* ========== Text Transformation ======= */
+  .text-upper{text-transform: uppercase;}
+  .text-capital{text-transform: capitalize;}
+  .text-italic{font-style: italic;}
+  .text-underline{text-decoration: underline;}
+  
+  /* ========= Font Weight ========= */
+  .light-bold{font-weight: 300;}
+  .medium-bold{font-weight: 500;}
+  .semi-bold{font-weight: 600;}
+  .bold{font-weight: 700;}
+  .extra-bold{font-weight: 800;}
+  .black-bold{font-weight: 900;}
+  
+  /* ========= Cursor Properties ========== */
+  .cursor-pointer{cursor: pointer;}
+  .cursor-not-allowed{cursor:not-allowed;}
+  .cursor-none{cursor: none;}
+  .cursor-default{cursor: default;}
+  
+  /* ======== Font Size ======== */
+  .font-8{font-size: .5rem;}
+  .font-10{font-size: .625rem;}
+  .font-12{font-size: .75rem;}
+  .font-14{font-size: .875rem;}
+  .font-16{font-size: 1rem;}
+  .font-18{font-size: 1.125rem;}
